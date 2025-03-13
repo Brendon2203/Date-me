@@ -1,0 +1,53 @@
+
+
+
+.container{
+    
+    position: relative; /* Define a referência para a posição absoluta do botão */
+    height: 100vh; /* Ajusta a altura da seção */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url(img/pink-heart-background-pattern.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    
+  }
+
+  .div-cont{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: rgb(247, 177, 177);
+    height: 100vh;
+    text-align: center;
+  }
+
+  .img-center{
+    border-radius: 16px;
+    margin-bottom: 15px;
+  }
+
+  .cont-btn {
+    position: relative; /* Define referência para posicionamento */
+    width: auto; /* Largura automática */
+    height: 180px; /* Altura fixa */
+    background-color: rgb(233, 155, 155); /* Apenas para visualização */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Pouco espaçamento entre os botões */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 16px;
+}
+
+#movableButton, #staticButton {
+    position: relative; /* Mantém alinhamento correto dentro do flexbox */
+}
